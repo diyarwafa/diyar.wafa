@@ -1,0 +1,560 @@
+
+@media (max-width: 430px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* ===== HEADER ===== */
+  .header {
+    padding: 2rem;
+    justify-content: space-between;
+  }
+
+  .logo-name {
+    display: none;
+  }
+  
+
+  .h2-desine-for-me{ 
+    position: static;
+    margin-top: -20px;
+    margin-left: 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-family: Berkshire Swash;
+    font-weight: 100;
+    
+}
+
+
+
+  .navbar-menu {
+    margin-left: -285px;
+                                /* بۆ موبایل، menu later */
+  }
+  li a{
+    font-size: 18px;
+    margin: 0px 18px 0px;
+  }
+
+  /* ===== HOME ===== */
+  .section-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  .ui-ux {
+    position: static;
+    font-size: 44px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+  #img-home {
+    position: static;
+    width: 180px;
+    margin: 30px 0;
+    margin-left: -23px;
+  }
+
+  .home-page {
+    position: static;
+    padding: 0 20px;
+  }
+
+  .paragraf-1 {
+    font-size: 19px;
+    line-height: 1.6;
+  }
+
+  .icon-social {
+    position: static;
+    margin: 30px 0;
+    font-size: 30px;
+    letter-spacing: 30px;
+    margin-left: 26px;
+  }
+
+  .get-in-touch {
+    position: static;
+    margin: 30px 0;
+    margin-left: -8px;
+  }
+
+  /* ===== SECTIONS ===== */
+  .section-about,
+  .section-Designs,
+
+  .section-contact {
+    width: 92%;
+    margin: 1px auto;
+    left: 0;
+    height: auto;
+    padding: 39px 20px;
+  }
+
+  .div-design,
+
+  .div-contact {
+    position: static;
+    text-align: center;
+    margin-bottom: 200px;
+  }
+  .section-about{
+    position: relative;
+    height: 100px;
+
+  }
+  .section-Designs{
+    position: relative;
+    height: 100px;
+  }
+
+  .section-Designs{
+    margin-top: 300px;
+    padding-bottom: 860px;
+  }
+
+  .section-about{
+    margin-top: 100px;
+    padding-bottom: 650px;
+  
+  }
+
+  .section-contact{
+    padding-bottom: 550px;
+    margin-top: -120px;
+  }
+
+  .about{
+    margin-top: -45px;
+  }
+.about-us{
+  position: relative;
+  left: 120px;
+  
+}
+.skills-grid{
+  position: relative;
+  left: -95px;
+  bottom: 90px;
+  
+}
+.skill-card{
+  width: 300px;
+  margin: 21px auto;
+
+}
+
+
+  #contactForm{
+    margin-top: 100px;
+    margin-left: -280px;
+  }
+  input{
+    width: 150%;
+    height: 12%;
+  }
+  textarea{
+    width: 150%;
+    height: 30%;
+  }
+  #btn{
+    width: 80%;
+    height: 11%;
+  }
+  
+
+  .h2-contact{
+    
+    margin-left: 90px;
+  }
+
+  .h3-logomakeking{
+    position: relative;
+    right: 340px;
+    font-size: 20px;
+    
+
+  }
+
+  .h2-Desing{
+    position: relative;
+    left: 112px;
+    
+  }
+  .img-designs{
+  
+  }
+
+  .imgs{
+    width: 250px;
+    margin-left: -64px;
+
+  }
+  button{
+    font-size: 5rem;
+
+  }
+  .btn-img{
+    position: relative;
+    left: 12px;
+    top: 39rem;
+    letter-spacing: 16rem;
+    position: absolute;
+  }
+
+
+
+
+
+
+
+
+  /* ===== PROJECTS 
+  .photo-project {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .photo-project img {
+    width: 100%;
+    margin: 0;
+  }
+===== */
+
+  /* ===== CONTACT ===== */
+  .div-input {
+    width: 100%;
+    margin: 0;
+  }
+
+  .div-input .btn {
+    width: 100%;
+  }
+
+  /* ===== FOOTER ===== */
+  .icon-footer {
+    margin: 63px 0;
+    font-size: 30px;
+    margin-left: 33px;
+  }
+
+  .devloped {
+    position: static;
+    text-align: center;
+    margin-top: -29px;
+    margin-left: -6px;
+  }
+
+  .devloped img {
+    margin: 0px auto 10px;
+    font-size: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media only screen and (max-width: 400px){
+
+    body{
+        overflow: hidden;
+        width: 100%;
+        
+    }
+
+
+    .header{
+        z-index: 1000;
+        
+    }
+    li a{
+    display: none;
+    
+ }
+
+ 
+.diyar-logo{
+    font-size: 11px; 
+
+    }
+    
+#D{
+    font-size: 15px;
+    
+}
+
+  #img-home{
+    width: 65px;
+    position: relative;
+    top: 110px;
+    left: 118px;
+
+    }
+
+
+    .ui-ux{
+    position: relative;
+    left: 12px;
+    top: 80px;
+    font-size: 17px;
+      
+}
+
+.home-page{
+    position: relative;
+    top: 78px;
+    left: 20px;
+    color: #ffff;
+}
+
+.paragraf-1{
+    position: relative;
+    top: 21px;
+    font-size: 6px;
+    display: none;
+}
+
+.h2-crefting{
+    font-size: 7px;
+    
+}
+
+.icon-social {
+    position: absolute;
+    display: inline-flex;
+    margin: 115px 56px;
+    letter-spacing: 15px;
+    font-size: 14px;
+}
+
+.get-in-touch {
+    position: absolute;
+    margin: 10rem 0rem;
+    color: #ffff;
+    
+}
+
+
+.h2-get a{
+    color: #ffff;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    box-shadow: 1.5px 2px 5px 0px #43cea2;
+    border-radius: 30px;
+    transition: 0.3s ease-out;
+    border: #185a9d 1.5px solid;
+    padding: 7px 12px 7px 12px;
+    margin: 60px;
+    
+}
+.h2-get a:hover{
+    font-size: 12px;
+    transition: all 0.5s;
+    opacity: 0.6;
+
+}
+
+
+ .section-about{ 
+    margin: 700px 32px;
+    width: 90%;
+    height: 77rem;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 1px #185a9d;
+
+    }
+
+    
+
+
+.about-us{
+    position: relative;
+    left:4px;
+    top: -22px;
+    font-size: 14px;
+    width: 38px;  
+}
+
+.section-Designs{
+    width: 90%;
+    height: 90rem;
+    position: relative;
+    bottom: 400px;
+    left: 32px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 1px #185a9d;
+     
+}
+
+.h2-Desing{
+    font-size: 14px;
+    
+}
+.div-design{
+    position: relative;
+    left: 64px;
+    top: 13px;
+}
+
+
+ .section-projects{
+    width: 90%;
+    height: 95rem;
+    position: relative;
+    bottom: 300px;
+    left: 32px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 1px #185a9d;
+     
+}
+.h2-project{
+    
+    font-size: 14px;
+    
+}
+.div-project{
+    position: relative;
+    left: 64px;
+    top: 13px;
+}
+
+.photo-project img{
+    display: none;
+    width: 260px;
+    margin-inline-start: 60px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    border: 1.2px solid #43cea2;
+    box-shadow: 0px 0px 11px 1px #185a9d;
+    
+}
+
+.section-contact{
+    width: 90%;
+    height: 75rem;
+    position: relative;
+    bottom: 200px;
+    left: 32px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 1px #185a9d;
+
+}
+.div-contact{
+    position: absolute;
+    left: 64px;
+    top: 13px;
+}
+.h2-contact{
+    font-size: 11px; 
+ 
+}
+
+.div-input{
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 440px;
+}
+
+
+
+
+
+footer{
+    position: relative;
+    top: 10px;
+    min-height: 15rem;
+}
+
+ .icon-footer{
+    display: flex;
+    margin: 160px ;
+    margin-left: 5px;
+    letter-spacing: 15px;
+    font-size: 16px;
+
+}
+.hr-icon{
+    position: relative;
+    right: 7px;
+    
+}
+
+.devloped{
+    position: absolute;
+    top: 37px;
+    left: 10%;
+}
+.devloped h3{
+    font-size: 12px;
+    padding: 3px;
+}
+.footerdiyar{
+    font-size: 13px;
+}
+
+
+
+
+
+}
+
+    
+ 
+
+
+*/
